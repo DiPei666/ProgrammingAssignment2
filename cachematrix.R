@@ -31,3 +31,5 @@ cacheSolve <- function(x, ...) {
     x$setInverse(inv)
     inv
 }
+
+cacheSolve(makeCacheMatrix(matrix(1:4,2,2)))
